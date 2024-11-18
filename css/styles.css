@@ -10,11 +10,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
-.span-logo {
+.head-span-logo {
   color: #2e2f42;
 }
-nav > ul > li {
+.link-nav {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -25,8 +26,8 @@ nav > ul > li {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-nav > ul > li :hover,
-nav > ul > li :focus {
+.link-nav :hover,
+.link-nav :focus {
   color: #404bbf;
   font-family: Roboto;
   font-size: 16px;
@@ -36,6 +37,9 @@ nav > ul > li :focus {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+.address {
+  font-style: normal;
 }
 .email,
 .tel {
@@ -64,6 +68,48 @@ nav > ul > li :focus {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+.section-page-title {
+  background-color: #2e2f42;
+}
+
+.page-title {
+  color: #ffff;
+  background-color: #2e2f42;
+  line-height: 1.07;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.page-title-button {
+  color: #ffff;
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.page-title-button :hover,
+.page-title-button :focus
+{
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.section-features{
+  background-color: #F4F4FD;
+}
 .section-title {
   font-family: Roboto;
   font-size: 36px;
@@ -76,40 +122,6 @@ nav > ul > li :focus {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2e2f42;
-}
-
-.page-title {
-  color: #ffff;
-  background-color: #2e2f42;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  line-height: 1.07;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 56px;
-  line-height: 60px;
-}
-.page-title-button {
-  color: #ffff;
-  background-color: #4d5ae5;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.page-title-button :hover {
-  color: #ffff;
-  background-color: #404bbf;
-  cursor: pointer;
 }
 .title {
   color: #2e2f42;
@@ -124,16 +136,12 @@ nav > ul > li :focus {
 }
 .text,
 .text-portfolio {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
+
 .section-our-team {
   color: #f4f4fd;
 }
