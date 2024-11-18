@@ -14,13 +14,19 @@ body {
 }
 .head-span-logo {
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .link-nav {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   text-underline-position: from-font;
@@ -102,13 +108,12 @@ body {
   text-decoration-skip-ink: none;
 }
 .page-title-button :hover,
-.page-title-button :focus
-{
+.page-title-button :focus {
   background-color: #404bbf;
   cursor: pointer;
 }
-.section-features{
-  background-color: #F4F4FD;
+.section-features {
+  background-color: #f4f4fd;
 }
 .section-title {
   font-family: Roboto;
@@ -136,10 +141,10 @@ body {
 }
 .text,
 .text-portfolio {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .section-our-team {
