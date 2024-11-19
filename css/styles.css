@@ -55,44 +55,26 @@ body {
   text-decoration-skip-ink: none;
 }
 
-.nav-address .navigation {
-  color: #404bbf;
+.link-address .add {
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
-.nav-address .navigation:hover {
+.link-address .add:hover {
   color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+}
+.link-address .add:focus {
+  color: #404bbf;
 }
 .address {
   font-style: normal;
 }
 
-.navigation:focus {
-  color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
 .section-page-title {
   background-color: #2e2f42;
 }
