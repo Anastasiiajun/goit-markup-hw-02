@@ -57,21 +57,9 @@ body {
 .address {
   font-style: normal;
 }
-.email,
-.tel {
-  font-style: normal;
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.email,
-.tel :hover {
+
+
+.navigation{
   color: #404bbf;
   font-family: Roboto;
   font-size: 16px;
@@ -82,8 +70,19 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.email,
-.tel :focus {
+.navigation:hover {
+  color: #404bbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+}
+.navigation:focus {
   color: #404bbf;
   font-family: Roboto;
   font-size: 16px;
