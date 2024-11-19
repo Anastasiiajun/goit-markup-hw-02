@@ -102,9 +102,7 @@ body {
   color: #ffff;
   background-color: #2e2f42;
   line-height: 1.07;
-  font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   text-underline-position: from-font;
@@ -112,7 +110,6 @@ body {
   font-family: Roboto;
   font-weight: Bold;
   font-size: 56px;
-  line-height: 60px;
 }
 
 .page-title-button {
@@ -127,11 +124,11 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.page-title-button :hover {
+.page-title-button:hover {
   background-color: #404bbf;
   cursor: pointer;
 }
-.page-title-button :focus {
+.page-title-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -139,6 +136,9 @@ body {
   background-color: #f4f4fd;
 }
 .section-our-portfolio {
+  background-color: #f4f4fd;
+}
+.section-our-team {
   background-color: #f4f4fd;
 }
 .section-title {
