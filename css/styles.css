@@ -39,7 +39,7 @@ body {
   color: #404bbf;
 }
 
-.link-address .add {
+.contakts {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -49,10 +49,10 @@ body {
   text-align: left;
 }
 
-.link-address .add:hover {
+.contakts:hover {
   color: #404bbf;
 }
-.link-address .add:focus {
+.contakts:focus {
   color: #404bbf;
 }
 .address {
