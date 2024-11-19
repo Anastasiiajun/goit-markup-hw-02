@@ -32,7 +32,17 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.link-nav :hover,
+.link-nav :hover {
+  color: #404bbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 .link-nav :focus {
   color: #404bbf;
   font-family: Roboto;
@@ -61,7 +71,17 @@ body {
   text-decoration-skip-ink: none;
 }
 .email,
-.tel :hover,
+.tel :hover {
+  color: #404bbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 .email,
 .tel :focus {
   color: #404bbf;
@@ -84,7 +104,7 @@ body {
   line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   text-underline-position: from-font;
@@ -107,7 +127,10 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.page-title-button :hover,
+.page-title-button :hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 .page-title-button :focus {
   background-color: #404bbf;
   cursor: pointer;
@@ -115,18 +138,21 @@ body {
 .section-features {
   background-color: #f4f4fd;
 }
+.section-our-portfolio {
+  background-color: #f4f4fd;
+}
 .section-title {
   font-family: Roboto;
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #2e2f42;
+}
+.section-our-portfolio {
+  background-color: #f4f4fd;
 }
 .title {
   color: #2e2f42;
@@ -139,7 +165,12 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.text,
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .text-portfolio {
   font-size: 16px;
   line-height: 1.5;
