@@ -32,27 +32,11 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.link-nav :hover {
+.link-nav:hover {
   color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
-.link-nav :focus {
+.link-nav:focus {
   color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .link-address .add {
